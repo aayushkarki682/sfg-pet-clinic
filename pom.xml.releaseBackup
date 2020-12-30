@@ -4,7 +4,7 @@
 
     <groupId>ayush.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
 
     <modules>
@@ -62,6 +62,5 @@
     <scm>
         <developerConnection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</developerConnection>
 
-    <tag>HEAD</tag>
   </scm>
 </project>
