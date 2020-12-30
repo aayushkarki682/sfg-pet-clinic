@@ -62,6 +62,6 @@
     <scm>
         <developerConnection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</developerConnection>
 
-    <tag>HEAD</tag>
+
   </scm>
 </project>
