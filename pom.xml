@@ -4,7 +4,7 @@
 
     <groupId>ayush.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
 
     <modules>
@@ -53,7 +53,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
-
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
