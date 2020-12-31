@@ -61,9 +61,10 @@
     </build>
 
     <scm>
-        <connection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</connection>
-        <developerConnection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</developerConnection>
+        <connection>scm:git:https://github.com/aayushkarki682/sfg-pet-clinic.git</connection>
+        <developerConnection>scm:git:https://github.com/aayushkarki682/sfg-pet-clinic.git</developerConnection>
         <url>https://github.com/aayushkarki682/sfg-pet-clinic</url>
+
 
   </scm>
 </project>
