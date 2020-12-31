@@ -4,7 +4,7 @@
 
     <groupId>ayush.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
 
     <modules>
@@ -54,14 +54,16 @@
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <remoteTagging>false</remoteTagging>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
+        <connection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</connection>
         <developerConnection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</developerConnection>
-        <tag>sfg-pet-clinic-0.0.1</tag>
+        <url>https://github.com/aayushkarki682/sfg-pet-clinic</url>
 
   </scm>
 </project>
