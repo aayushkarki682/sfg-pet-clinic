@@ -54,13 +54,16 @@
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <remoteTagging>false</remoteTagging>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
+        <connection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</connection>
         <developerConnection>scm:git:git@github.com:aayushkarki682/sfg-pet-clinic.git</developerConnection>
+        <url>https://github.com/aayushkarki682/sfg-pet-clinic</url>
 
   </scm>
 </project>
